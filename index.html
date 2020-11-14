@@ -1,0 +1,1336 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>COVID-19</title>
+    <link rel="shortout icon" type="image/x-icon" href="favicon.png" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+     <link href="main.css" rel="stylesheet">
+     <script src="https://kit.fontawesome.com/b665d6fd82.js" crossorigin="anonymous"></script>
+     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,300&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/bfe9be50df.js" crossorigin="anonymous"></script>
+     <style>
+     
+       .mg1{
+background-image: url(1.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
+height: 100vh;
+z-index: 1;
+       }
+       .cover{
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100vh;
+         z-index: 2;
+         background-color: rgba(0, 0, 0, .3);
+
+         opacity: .3;
+       }
+       .mg2{
+background-image: url(2.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 100vh;
+       }
+       .mg3{
+background-image: url(3.jpg);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+
+height: 100vh;
+       }
+       .contact{
+         position: absolute;
+         top: 40%;
+         text-align: center;
+         height: 100vh;
+        
+         z-index: 3;
+         color: #fff;
+       }
+       .an{
+    animation: load 1.9s infinite ease-in-out;
+
+}
+
+@keyframes load{
+    0%{
+transform: translateY(0);
+
+    }
+    50%{
+      transform: translateY(6px);
+    }
+  
+    100%{
+        transform: translateY(0);
+      
+    }
+
+  }
+  .backcontact{
+  background-image: url(sha.jpg);
+    position: relative;
+   height: 300px;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    z-index: 1;
+}
+@media(max-width :450px){
+    .hell img{
+        width: 100%;
+    height: 400px;
+        left: -30px;
+        background-attachment: fixed;
+        position: absolute;
+        z-index: 1;
+    }
+
+    .hellocontact{
+    overflow: scroll;
+    background-color: #fff;
+   color: #000;
+    margin:-10px auto;
+    padding: 20px 10px;
+    cursor: pointer;
+}
+.contacttext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+   height: 400px;
+    width: 100%;
+    background-color: rgba(37, 190, 201, 0.4);
+}
+    .hell2{
+        background-color: purple;
+        opacity: .9;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        top:2px;
+        text-align: center;
+        height: 400px;
+    }
+  
+  
+    .backcontact{
+        background-image: url(sha.jpg);
+         position: relative;
+      height: 400px;
+         background-position: center;
+         background-size: cover;
+         background-attachment: fixed;
+         z-index: 1;
+     }
+  
+     .don11 i{
+          font-size: 140px;
+          color: white;
+          transform: translate(50%,220%);
+          cursor: pointer;
+          transition: ease-in-out .4s;
+      }
+      .don11 i:hover{
+          color: #e74c3c;
+          transform: translate(50%,220%) scale(1.1);
+      }
+    
+}
+
+.over1{
+    color: white;
+    position: fixed;
+    left: 0;
+    top: 0;
+  z-index: 88888;
+  height: 2000px;
+  display: none;
+  
+  }
+  .conthove{
+    width: 100%;
+    height: 800px;
+    z-index: 1;
+position: relative;
+}
+.conthove img{
+  width: 100%;
+  height: 100%;
+}
+.formcont{
+width: 100%;
+height: 800px;
+background-color: gray;
+z-index: 2;
+position: absolute;
+top: 0;
+left: 0;
+opacity: .7;
+
+}
+.textformcontac{
+  width: 100%;
+  height: 800px;
+  z-index: 3;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.ximg{
+    width: 40px;
+    float: right;
+    transform: translateY(-10px);
+}
+.slidserver500{
+    height: 300px;
+    box-shadow: 10px 10px 4px red;
+    background-color: yellow;
+}
+.slidserver500 img{
+    width: 100%;
+height: 130px;
+}
+.watch1{
+ 
+    border-radius: 20%;
+ margin-bottom: 40px;
+  }
+
+  .buttonf{
+    border: none;
+    cursor: pointer;
+    display: block;
+    
+    padding: 10px;
+    width: 120px;
+    position: relative;
+   color: #fff;
+    margin: 20px 0;
+}
+
+.buttonf.from-left{
+    background-color: #2980b9;
+}
+.buttonf span:first-child{
+    width: 0;
+    height: 100%;
+    background-color: #3498db;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    z-index: 1;
+    
+}
+.buttonf span:last-child{
+    z-index: 2;
+    position: relative;
+    color: #fff;
+}
+
+@media(max-width:550px){
+    .hellocontact{    
+        background-color: #fff;
+       color: #000;
+        margin: 10px auto;
+        padding: 20px 10px;
+        cursor: pointer;
+    }
+   
+      .don11 i{
+    font-size: 140px;
+    color: white;
+    transform: translate(50%,220%);
+    cursor: pointer;
+    transition: ease-in-out .4s;
+}
+.don11 i:hover{
+    color: #e74c3c;
+    transform: translate(50%,220%) scale(1.1);
+}
+}
+.contacttext{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+  
+    width: 100%;
+    background-color: rgba(37, 190, 201, 0.4);
+}
+.mansour{
+  background-image: url(fs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 527px;
+}
+@media(max-width: 400px){
+  .mansour{
+  background-image: url(fs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 1527px;
+}
+ 
+}
+@media(max-width: 450px){
+  .mansour{
+  background-image: url(fs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 1527px;
+}
+}
+@media(max-width: 850px){
+  .mansour{
+  background-image: url(fs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 1527px;
+}
+}
+@media(max-width: 950px){
+  .mansour{
+  background-image: url(fs.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  height: 1527px;
+}
+}
+
+     </style>
+</head>
+<body>
+    <div>
+        <nav class="navbar navbar-expand-lg fixed-top ">
+            <img src="logo.png" alt="">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"><i class="fa fa-bars fa2" aria-hidden="true"></i>  </span>
+            </button>
+          
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+             
+                <li class="nav-item">
+                  <a class="nav-link" href="#">HOME</a>
+                </li>
+                
+                <li class="nav-item">
+                    <a class="nav-link" href="#">ABOUT CRONOA</a>
+                  </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SYMPTOMS</a>
+                  </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="#">PREVENTION</a>
+                  </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="#">TREATMENT</a>
+                  </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="#">SERVICES</a>
+                  </li>
+                  
+                <li class="nav-item">
+                    <a class="nav-link" href="#">CONTACT US</a>
+                  </li>
+                  <button type="button" class="btn btn-primary ss">Do & Don’t</button>
+                  
+              </ul>
+              
+            </div>
+          </nav>
+              
+       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" style="margin-bottom: 130px;">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        
+
+        </ol>
+        <div class="slide  ">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+       <div class="mg1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12"></div>
+       <div class="cover">
+       </div>
+       <div class="contact col-12 col-sm-          12 col-md-12 col-lg-12 col-lx-12 ">
+         <h1>What youneed to know about coronavirus (COVID-19)</h1>
+
+          <p>COVID-19 is a respiratory illness caused by
+             a new virus. Symptoms include fever, coughing, a sore throat and
+              shortness of breath. The virus can spread from person to person. Currently
+               there is no treatment for COVID-19. Find out
+             who is at risk and what you should do if you think you have COVID-19.</p>
+        </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mg2 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 "></div>
+            <div class="cover"></div>
+            <div class="contact col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+              <h1>How to get tested</h1>
+              <p>If you have cold or flu 
+                like symptoms, such as a cough,
+                 fever, sore throat, shortness 
+                 of breath or runny nose, even if these are mild,
+                  you should get tested for COVID-19 as soon as possible. People with
+                   mild symptoms can still spread the virus. To help stop the resurgence and 
+                   spread of COVID-19, anyone with symptoms of a respiratory infection should
+                    get tested.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="mg3 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 "></div>
+            <div class="cover"></div>
+            <div class="contact col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+              <h1>Temperature checks </h1>
+              <p>A temperature check is when a monitoring device,
+                 such as a contactless thermometer or thermal imaging,
+                  checks whether someone has a fever. In places like hospitals
+                   and aged care facilities, temperature checks may be useful as an extra precaution to
+                 protect vulnerable people. Some places might test visitors as well as workers.</p>
+            </div>
+          </div>
+          
+        </div>
+       
+      
+      </div>
+    </div>
+   
+    </div>
+     <!--start sectio 1-->
+    <div id="about">
+     
+      <div class="container">
+        <div class="row">
+<div class="div1 col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+  <h5 class="ll">ABOUT THE DISEASE</h5>
+  <h1>CORONAVIRUS (COVID-19)</h1>
+  <p style="color: hotpink;font-family: Arial, Helvetica, sans-serif;font-size: 20px;"><span>COVID-19
+     is a new illness that can affect your lungs and airways.</span>It's caused
+      by a virus called coronavirus. It was discovered in December 2019 in Wuhan, Hubei, China.
+
+    Common signs of infection include respiratory symptoms, fever, cough, shortness of breath
+     and breathing difficulties. In more severe cases, infection can cause pneumonia, severe
+      acute respiratory syndrome, kidney failure and even death.
+    
+    Standard recommendations to prevent infection spread include regular hand washing, covering mouth
+     and nose when coughing and sneezing, thoroughly cooking meat and eggs. Avoid close contact with anyone showing symptoms 
+    of respiratory illness such as coughing and sneezing.</p>
+</div>
+<div class="div2 col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+  <table class="table">
+    <tr class="table">
+        <td><h4 style="color: #fff">What you need to know</h4></td>
+      
+    </tr>
+    <tr class="table">
+  <td>
+    <p>
+      <span>How coronavirus is spread</span>
+      <span class="fot1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+             </p>
+  </td>
+        
+    </tr>
+    <tr class="table">
+        <td>
+          <p>
+            <span>Symptoms of coronavirus</span>
+            <span class="fot1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                   </p>
+
+        </td>
+    
+    </tr>
+    <tr class="table">
+       <td>
+        <p>
+          <span> Treatment for coronavirus</span>
+          <span class="fot1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                 </p>
+       </td>
+     
+    </tr>
+    <tr class="table">
+        <td>
+          <p>
+            <span>How to protect yourself</span>
+            <span class="fot1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                   </p>
+        </td>
+       
+    </tr>
+    <tr class="table">
+      <td>
+        <p>
+          <span> Myth-Busters of coronavirus</span>
+          <span class="fot1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+                 </p>
+      </td>
+     
+  </tr>
+  <tr class="table">
+    <td>
+      <p>
+        <span>Questions & answers</span>
+        <span class="fot1"><i class="fa fa-long-arrow-right" aria-hidden="true"></i></span>
+               </p>
+    </td>
+  
+</tr>
+</table>
+</div>
+        </div>
+      </div>
+    </div>
+     <!--end sectio 1-->
+     <!--start sectio2-->
+     <div class="conte" id="speread">
+      
+        <div class="spreat  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12" >
+<h5 style="transform: translateY(10px);margin-bottom: 20px;">HOW CORONAVIRUS IS SPREAD</h5>
+<h1>TRANSMISSION OF COVID-19</h1>
+<p>Because it's a new illness, we do not know exactly how coronavirus spreads
+  <br>from person to person. Similar viruses are spread in cough droplets.
+</p>
+        </div>
+        <div style="margin-bottom: 130px;" class="container">
+        <div class="row">
+          <div class="pg  col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 ">
+            <div class="person col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <img style="width: 100%;height: 204px;" src="p1.png" alt="">
+            <div style="background-color: skyblue; height: 5px; width: 100%;margin-bottom: 30px;"></div>
+            <p style="color: #2a81ea; font-weight: bold;font-size: 20px;">Person-to-person spread as close<br>contact with infected</p>
+<p>The coronavirus is thought to spread mainly from person to person.
+This can happen between people who are in close contact with one another.</p>
+            </div>
+          
+          </div>   
+          <div class="pg  col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 ">
+            <div class="person col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <img style="width: 100%;height: 204px;" src="p2.png" alt="">
+            <div style="background-color: skyblue; height: 5px; width: 100%;margin-bottom: 30px;"></div>
+            <p style="color: #2a81ea; font-weight: bold;font-size: 20px;">Touching or contact with infected<br>surfaces or objects</p>
+<p>A person can get COVID-19 by touching a surface or object 
+  that has the virus on it and 
+then touching their own mouth, nose, or possibly their eyes.</p>
+            </div>
+          
+          </div>
+          <div class="pg  col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 ">
+            <div class="person col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <img style="width: 100%;height: 204px;" src="p3.png" alt="">
+            <div style="background-color: skyblue; height: 5px; width: 100%;margin-bottom: 30px;"></div>
+            <p style="color: #2a81ea; font-weight: bold;font-size: 20px;">Droplets that from infected<br>person coughs or sneezes</p>
+<p>The coronavirus is thought to spread mainly from person to person. This can happen between people who are in close contact with one another.</p>
+            </div>
+          
+          </div>
+       
+      
+        </div>
+        </div>
+      <!--start cont3-->
+      <div style="margin-bottom: 130px;" id="symp">
+        <div class="spreat  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+          <h5 style="transform: translateY(10px);margin-bottom: 20px;">WHAT ARE THE SYMPTOMS OF COVID-19?</h5>
+          <h1>SYMPTOMS OF CORONAVIRUS</h1>
+          <p>The most common symptoms of COVID-19 are fever, tiredness, and dry cough. Some patients may
+            <br>have aches and pains, nasal congestion, runny nose, sore throat or diarrhea. These symptoms are
+            <br>usually mild and begin gradually. Also the symptoms may appear 2-14 days after exposure.
+          </p>
+                  </div>
+                  <div class="container">
+                    <div class="row"> 
+  <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+    <div class="fever col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <img src="s1.png" alt="">
+      <div class="text-fever">
+        <h5>Fever</h5>
+        <p>
+          <span class="fr1">High Fever –</span>
+      <span>
+        this means you feel hot to touch on your chest or back (you do not need
+        to measure your temperature). It is a common sign and also may appear in 2-10 days if you affected.
+      </span>
+        </p>
+      </div>
+      
+      </div>
+  </div>
+  <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+    <div class="fever col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <img src="s2.png" alt="">
+      <div class="text-fever">
+        <h5>Cough</h5>
+        <p>
+          <span class="fr1">Continuous cough – </span>
+      <span>
+        this means coughing a lot
+     for more than an hour, or 3 or more coughing episodes in 24 hours (if you usually have a cough, it may be worse than usual).
+      </span>
+        </p>
+      </div>
+      
+      </div>
+  </div>
+  <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+    <div class="fever col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <img src="s3.png" alt="">
+      <div class="text-fever">
+        <h5>hard breath</h5>
+        <p>
+          <span class="fr1">Difficulty breathing –</span>
+      <span>
+        Around 1 out of every 6 people who gets COVID-19 becomes seriously ill and develops difficulty breathing or shortness of breath.
+      </span>
+        </p>
+      </div>
+      
+      </div>
+  </div>
+
+
+</div>
+</div>
+      </div>
+     
+      <!--end cont3-->
+      <!--start con4-->
+      <div style="margin-bottom: 130px;" class="container">
+<div class="row">
+<div class="alert col-12 col-sm-12 col-md-12 col-lg-7 col-lx-7 ">
+  <img  src="ss.png" alt="">
+<span class="stay" >
+  Stay at home and call your doctor:</span>
+  <span class="stay2"> If you think you have been exposed to COVID-19 and develop a fever and any symptoms,
+   such as cough or difficulty breathing, call your healthcare provider as soon as possible for medical advice.</span>
+</div>
+<div class="butalert col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+  <button type="button" class="btn btn-primary">Have question? Find answer.</button>
+</div>
+
+</div>
+      </div>
+      <!--end con4-->
+      <!--st  art cont5-->
+      <div id="prodect">
+      <div class="spreat  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <h5 style="transform: translateY(10px);margin-bottom: 20px;">HOW TO PROTECT YOURSELF?</h5>
+        <h1>PREVENTION & ADVICE</h1>
+        <p>There is currently no vaccine to prevent coronavirus disease 2019 (COVID-19). The best way to prevent
+          <br>illness is to avoid being exposed to this virus. Stay aware of the latest information on the COVID-19
+          <br>outbreak, available on the WHO website and through your national and local public health authority.
+        </p>
+                </div>
+      <!--end cont5-->
+      <!--start con6-->
+       <div style="margin-bottom: 40px;" class="container">
+         <div class="row">
+           <div class="wash1 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+             <img src="a1.png" alt="">
+             <h6 style="font-weight: bold;">Wash your hands frequently</h6>
+             <P>Regularly and thoroughly clean your hands with an alcohol-based hand rub or wash them with soap and water for at least 20 seconds. </P>
+           </div>
+
+           <div class="wash1 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+            <img src="a2.png" alt="">
+            <h6 style="font-weight: bold;">Maintain social distancing</h6>
+            <P>
+              Maintain at least 1 metre
+               (3 feet) distance between yourself
+                & anyone who is coughing or sneezing. If you are too close.
+            </P>
+          </div>
+          <div class="wash1 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+            <img src="a3.png" alt="">
+            <h6 style="font-weight: bold;">Avoid touching face</h6>
+            <P>
+              Hands touch many surfaces
+               and can pick up viruses. So,
+                hands can transfer the virus to your eyes, nose or mouth and can make you sick.
+            </P>
+          </div>
+          <div class="wash1 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+            <img src="a4.png" alt="">
+            <h6 style="font-weight: bold;">Practice respiratory hygiene</h6>
+            <P>
+              Maintain good respiratory hygiene as covering your mouth & nose with your bent elbow or tissue when cough or sneeze.
+            </P>
+          </div>
+         </div>
+       </div>
+      </div>
+      <!--end con6-->
+      <!--start con7-->
+      <div class="spreat  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <a href="#hand"><button style="border-radius: 30px; padding: 7px 25px;" type="button"
+           class="btn btn-primary">Check how you wash hand</button></a>
+        
+                </div>
+      <!--end con7-->
+      <!--start coont 8-->
+      <div style="margin-bottom: 140px;">
+      <div class="container">
+        <div class="contwhite  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+<div class="row">
+  <div class="take col-12 col-sm-12 col-md-12 col-lg-7 col-lx-7 ">
+    <h2 style="font-weight: bold; color: #2a81ea;">Take steps to protect others</h2>
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Stay home if you’re sick – </span>
+        <span>Stay home if you are sick, except to get medical care.</span>
+    </P>
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Cover your mouth and nose –  </span>
+        <span>with a tissue when you cough or sneeze (throw used tissues in the trash) or use the inside of your elbow.</span>
+    </P>
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Wear a facemask if you are sick –  </span>
+        <span>You should wear a facemask when you are around other people (e.g., sharing a room or vehicle) and before you enter a healthcare provider’s</span>
+    </P>
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Clean AND disinfect frequently touched surfaces daily –   </span>
+        <span>This includes phones, tables, light switches, doorknobs, countertops, handles, desks, toilets, faucets, and sinks.</span>
+    </P>  
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Clean the dirty surfaces –  </span>
+        <span> Use detergent or soap and water prior to disinfection.</span>
+    </P> 
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Stay informed about the local COVID-19 situation –  </span>
+        <span> Get up-to-date information about local COVID-19 activity from public health officials.</span>
+    </P>  
+    <P>
+      <i style="color: green;" class="fa fa-flag" aria-hidden="true"></i>
+      <span style="font-weight: bold;">Dedicated, lined trash can –   </span>
+        <span> If possible, dedicate a lined trash can for the ill person. Use gloves when removing garbage bags, and handling & disposing of trash.</span>
+    </P>  
+    
+    </div>
+    
+    <div class=" col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4 ">
+      <img style="width: 100%; overflow: hidden;" src="step.png" alt="">
+    </div>
+</div>
+
+  
+</div>
+
+        </div>
+      </div>
+        
+        <div class="container" style="margin-bottom: 150px;">
+          <div class="row">
+           <div class="trough col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6 ">
+             <h2 class="asd">We are providing treatment by some experienced physicians through the 
+               <span>Coronavirus</span>
+             
+             </h2>
+             <p style="font-weight: bold;color: hotpink;">Lorem ipsum dolor sit amet consectetur
+              adipisicing elit sed do ei usmod tempor
+               incididunt.enim minim veniam, quis nostrud exer citation ullamco laboris
+              nisi ut aliquip ex commodo conse inquat duis aute irure dolor.</p>
+              <p>Quis nostrud exer citation ullamco laboris nisi ut aliquip
+                 ex commodo conse inquat duis aute irure dolor. Lorem ipsum
+                  dolor sit amet consectetur
+                 adipisicing elit sed do ei usmod tempor incididunt.</p>
+           </div>
+           <div class="trough2 col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6 ">
+            <img style="width: 100%;" class="an" src="ab.jpg" alt="">
+          </div>
+          <!--start cont9-->
+
+          <!--end cont9-->
+          </div>
+          
+        </div>
+     
+      </div>  
+      <!--end cont8-->
+      
+     </div>
+    <div>
+    
+    </div>
+    <div class="conthell" style="margin-bottom: 130px;" >
+      <div class="hell col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <img src="fs.jpg"  alt="">
+      </div>
+      <div class="hell2">
+        <div class="hell3">
+          <h2>It is a virus that shows the disease within 14 days of</h2>
+          <br><h2>entering the body. Contact us immediately if</h2>
+          </div>
+      </div>
+            </div>
+        <!--end sectio2-->
+        <!--start section doctors-->
+        <div class="containe">
+          <div class="tobject  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+            <h3>TEAM</h3>
+            <div class="title-syle text-center">
+              <h1>Coronavirus Specialist</h1>
+              </div>
+            </div>
+          </div>
+         
+        </div>
+        <div style="margin-bottom: 150px;" class="container">
+          <div class="row">
+            <div style="margin-bottom: 40px;" class="t1 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+              <img style="border-radius: 15px 15px; margin-bottom: 15px;" class="img-fluid" src="t1.jpg" alt="">
+              <h2>Dr. Robert Muhib</h2>
+              <p>Seneor Consultant</p>
+              <div class="img-boxicon">
+                <img src="fac.png" alt="">
+                <img src="lin.png" alt="">
+                <img src="twe.png" alt="">
+              </div>
+            </div>
+            <div style="margin-bottom: 40px;"  class="t1 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+              <img style="border-radius: 15px 15px; margin-bottom: 15px;" class="img-fluid" src="t2.jpg" alt="">
+              <h2>Dr. Denial Firoz</h2>
+              <p>Seneor Consultant</p>
+              <div class="img-boxicon">
+                <img src="fac.png" alt="">
+                <img src="lin.png" alt="">
+                <img src="twe.png" alt="">
+              </div>
+            </div>
+            <div class="t1 col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+              <img style="border-radius: 15px 15px; margin-bottom: 15px;" class="img-fluid" src="t3.jpg" alt="">
+              <h2>Dr. Fahima Akon</h2>
+              <p>Virus Expert</p>
+              <div class="img-boxicon">
+                <img src="fac.png" alt="">
+                <img src="lin.png" alt="">
+                <img src="twe.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+       <div>
+         
+        <div style="margin-bottom: 120px;" class="contcontact col-12 col-sm-12 col-md-12 col-lg-7 col-lx-7">
+<div class="backcontact">
+  <div  class="contacttext"></div>
+  <div class="divtextcpntact">
+    <h2 style="text-align: center;">Contact us immediately if there are signs</h2>
+    <h2 style="margin-bottom: 50px;">
+      of the Coronavirus
+    </h2>
+    <button  type="button" class="btn btn-light bte">CONTACT US</button>
+        </div>
+  
+</div>
+
+ 
+</div>
+        </div>
+        <div  class="over1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+          <div class="conthove">
+            <img style="width: 100%;" src="mar.jpg" alt="">
+          </div>
+          <div  class="formcont"></div>
+          <div class="textformcontac">
+          <div class="hellocontact col-12 col-sm-12 col-md-12 col-lg-8 col-lx-8">
+         
+            <img class="ximg" src="X.png"></img>
+            <form>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputEmail4">Email</label>
+                  <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+                </div>
+                <div class="form-group col-md-6">
+                  <label for="inputPassword4">Password</label>
+                  <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="inputAddress">Address</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Enter your Adress">
+              </div>
+              <div class="form-group">
+                <label for="inputAddress2">Address 2</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+              </div>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label for="inputCity">City</label>
+                  <input type="text" class="form-control" id="inputCity">
+                </div>
+           
+                <div class="form-group col-md-2">
+                  <label for="inputZip">Zip</label>
+                  <input type="text" class="form-control" id="inputZip">
+                </div>
+              </div>
+              <div class="form-group">
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="gridCheck">
+                  <label class="form-check-label" for="gridCheck">
+                    Check me out
+                  </label>
+                </div>
+              </div>
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </form>
+          </div>
+          </div>
+        </div>
+      </div>
+        <!--end section doctors-->
+<!--section servise-->
+
+<div style="margin-bottom: 140px;">
+  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+  <div class="elfsight-app-25945cfa-e5d1-497c-a37b-dfb3595d4753"></div>
+</div>
+<div style="margin-bottom: 50px;" class="divhservise">
+  <h5 style="text-shadow: 2px 2px orange;margin-bottom: 20px;">OUR SERVICES</h5>
+  <h2 style="font-weight:blod;color:brown">what We Can Do</h2>
+  <div class="borde-servies col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3"></div>
+</div>
+
+
+<div style="padding: 30px;">
+<div style="margin-bottom: 140px;" class="swiper-container">
+  <div class="swiper-wrapper">
+    <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 swiper-slide fdf">
+      <div class="ourservise1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+      <img src="s1.jpg" alt="">
+      
+      <h4>Medical treatment</h4>
+      <p>Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt</p>
+      </div>
+    </div>
+    <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 swiper-slide fdf">
+      <div class="ourservise1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+      <img src="s2.jpg" alt="">
+      
+      <h4>Health advice</h4>
+      <p>Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt</p>
+      </div>
+      </div>
+      <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 swiper-slide fdf">
+        <div class="ourservise1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+        <img src="s3.jpg" alt="">
+        <h4>Social awareness</h4>
+        <p>Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt</p>
+        </div>
+        </div>
+        <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 swiper-slide fdf">
+          <div class="ourservise1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+          <img src="s4.jpg" alt="">
+          <h4>Ambulance servise</h4>
+          <p>Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt</p>
+          </div>
+          </div>
+          <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 swiper-slide fdf">
+            <div class="ourservise1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+            <img src="s5.jpg" alt="">
+            
+            <h4>coronavirus test</h4>
+            <p>Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt</p>
+            </div>
+            </div>
+            <div style="margin-bottom: 50px;" class="col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3 swiper-slide fdf">
+              <div class="ourservise1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+              <img src="s6.jpg" alt="">
+              
+              <h4>Online Consuliting</h4>
+              <p>Excepteur sint occaecat cupidatat non proident sunt culpa officia deserunt</p>
+              </div>
+              <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            </div>
+  </div>
+</div>
+</div>
+<div >
+  <div id="hand">
+  <div>
+  <div  style="margin-bottom: 50px; border: 10px solid orchid;cursor: pointer;border-radius: 15px;" class="divhservise asdfg col-12 col-sm-12 col-md-5 col-lg-5 col-lx-5" >
+    
+    <h5 style="text-shadow: 2px 2px orange;margin-bottom: 20px;">CLEANING THE GERMS</h5>
+    <h1 style="font-weight:blod;color:brown">Clean Your Hands</h1>
+  
+  </div>
+</div>
+
+      <div class="container asdds">
+        <div class="row">
+          <div style="margin-bottom: 40px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+          <div class="watchhand1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+           <img class="testi" src="testi.png" alt="">
+          <div style="text-align: center;margin:20px auto ;transform: translateX(-20px);">
+            <img class="watch1" src="watch1.png" alt="">
+            <h3 style="text-align: center;transform: translateX(10px);">Apply Alcohol Spray</h3>
+          </div>
+          </div>
+          </div>
+          <div style="margin-bottom: 40px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+            <div class="watchhand1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+             <img class="testi" src="testi.png" alt="">
+            <div style="text-align: center;margin:20px auto ;transform: translateX(-20px);">
+              <img class="watch1" src="watch2.png" alt="">
+              <h3 style="text-align: center;transform: translateX(10px);">Or Using Alcohol Gel</h3>
+            </div>
+            </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+              <div class="watchhand1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+               <img class="testi" src="testi.png" alt="">
+              <div style="text-align: center;margin:20px auto ;transform: translateX(-20px);">
+                <img class="watch1" src="watch3.png" alt="">
+                <h3 style="text-align: center;transform: translateX(10px);">Rub Hands Together</h3>
+              </div>
+              </div>
+              </div>
+          
+        </div>
+      </div>
+      
+      <div class="container asdds">
+        <div class="row">
+          <div style="margin-bottom: 40px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+          <div class="watchhand1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+           <img class="testi" src="testi.png" alt="">
+          <div style="text-align: center;margin:20px auto ;transform: translateX(-20px);">
+            <img class="watch" src="watch5.png" alt="">
+            <h3 style="text-align: center;transform: translateX(10px);">Rub Back Of Each Hand</h3>
+          </div>
+          </div>
+          </div>
+          <div style="margin-bottom: 40px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+            <div class="watchhand1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+             <img class="testi" src="testi.png" alt="">
+            <div style="text-align: center;margin:20px auto ;transform: translateX(-20px);">
+              <img class="watch1" src="watch5.png" alt="">
+              <h3 style="text-align: center;transform: translateX(10px);">Interlaced Fingers</h3>
+            </div>
+            </div>
+            </div>
+            <div style="margin-bottom: 40px;" class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+              <div class="watchhand1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+               <img class="testi" src="testi.png" alt="">
+              <div style="text-align: center;margin:20px auto ;transform: translateX(-20px);">
+                <img class="watch1" src="watch6.png" alt="">
+                <h3 style="text-align: center;transform: translateX(10px);">Rub Until Dry</h3>
+              </div>
+              </div>
+              </div>
+          
+        </div>
+      </div>
+      </div>
+
+<!--end section service-->
+<!--start section news-->
+<div  style="margin-bottom: 50px;cursor: pointer;border-radius: 15px;" class="divhservise asdfg col-12 col-sm-12 col-md-5 col-lg-5 col-lx-5" >
+    
+  <h5 style="color: skyblue;">BLOG</h5>
+  <h1 style="font-weight:blod;color:brown">LAST NEWS</h1>
+  <div class="col-8 col-sm-8 col-md-8 col-lg-8 col-lx-8" style="height: 3px;
+  background-color: purple;margin: auto;">
+    
+  </div>
+
+</div>
+<div style="padding: 0 7px; margin-bottom: 170px;">
+<div class="container">
+  <div class="row">
+    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+    <div class=" news12 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <img  style="width: 120%;height: 200px;transform: translateX(-30px);border-radius: 9px;margin-bottom: 20px;" src="b1.jpg" alt="">
+     
+    
+      <h2 class="hnews"> Do not delay if the symptoms appear</h2>
+      <p >Excepteur sint occaecat cupidatat proident sunt culpa qui officia derunt mollit anmlab rum. Sed perspiciatis unde.</p>
+      <button class="buttonf from-left">
+        <span></span>
+        <span>Read More</span>
+    </button>
+    </div>
+
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+      <div class=" news12 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+        <img  style="width: 120%;height: 200px;transform: translateX(-30px);border-radius: 9px;margin-bottom: 20px;" src="b2.jpg" alt="">
+        <h2 class="hnews">Use masks to avoid Coronaviruses</h2>
+        <p >Excepteur sint occaecat cupidatat proident sunt culpa qui officia derunt mollit anmlab rum. Sed perspiciatis unde.</p>
+        <button class="buttonf from-left">
+          <span></span>
+          <span>Read More</span>
+      </button>
+      </div>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-4 col-lx-4">
+        <div class=" news12 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+          <img  style="width: 120%;height: 200px;transform: translateX(-30px);border-radius: 9px;margin-bottom: 20px;" src="b3.jpg" alt="">
+          <h2 class="hnews"> physicians provide medical</h2>
+          <p >Excepteur sint occaecat cupidatat proident sunt culpa qui officia derunt mollit anmlab rum. Sed perspiciatis unde.</p>
+          <button class="buttonf from-left">
+            <span></span>
+            <span>Read More</span>
+        </button>
+        </div>
+        </div>
+
+  </div>
+</div>
+</div>
+<!--end section news-->
+<!--strt secion do or dont-->
+
+<div class="backdodont">
+  <h1 class="h1do">MOST IMPORTANT THINGS YOU MUST DONT DO to PRODECT YOURSELF !</h1>
+
+<div class="container">
+  <div class="row">
+    <div class="doordont1 col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+<div class="doordontback"></div>
+
+<div class="row">
+  <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+  <div class="dont1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+<img src="promask.jpg" alt="">
+<h4>Do not stockpile on masks</h4>
+<p style="color: #7f8c8d;">It has been declared by the WHO, masks are not the most effective
+   way of stopping the spread of
+</p>
+  </div>
+  </div>
+  <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+    <div class="dont1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+  <img src="travel.jpg" alt="">
+  <h4>Do not travel unless necessary</h4>
+  <p style="color: #7f8c8d;">The airports and airplanes are where you
+     are most likely
+      to catch an infection. advisable not to
+        travel unless necessary.</p>
+    </div>
+    </div>
+    <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+      <div class="dont1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+    <img src="tface.jpg" alt="">
+    <h4>Do not touch your face</h4>
+    <p style="color: #7f8c8d;">
+      Medical advisories from the World Health Organisation (WHO) has reminded us time and again not to touch 
+      
+    </p>
+      </div>
+      </div>
+      <div class=" col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+        <div class="dont1 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+      <img src="phons.jpg" alt="">
+      <h4>Do not believe everything on news</h4>
+      <p style="color: #7f8c8d;">
+        The internet is filled with information about the symptoms and cure available for coronavirus. Do not believe 
+        
+      </p>
+        </div>
+        </div>
+</div>
+
+    </div>
+    <div class="dontdo2 col-12 col-sm-12 col-md-12 col-lg-6 col-lx-6">
+    
+     <div class="don2 col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12">
+<div class="don1">
+</div>
+<div class="don11">
+  <i class="fas fa-play-circle doi2"></i>
+</div>
+     </div>
+    </div>
+  </div>
+</div>
+</div>
+<!--end section do or dont-->
+<div class="poup first-pop">
+ <div class="idont3" style="width: 100px;height: 100px;float: right;transform: translateY(60px);">
+  <i class="fas fa-times-circle doclose"></i>
+ </div>
+  <div class="inner col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+  <div class=" col-12 col-sm-12 col-md-7 col-lg-7 col-lx-7 videodo">
+    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ZvLFz1KSYMA" 
+    ="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  </div>
+  </div>
+</div>
+<!--start section last-->
+<div class="mansour  col-12 col-sm-12 col-md-12 col-lg-12 col-lx-12 ">
+  <div class="listdiv1">
+    <div class="row">
+      <div style="margin-bottom: 90px" class="last1 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+        <img style="float: left; width: 40px;transform: translateX(-10px);margin-top: -5px;" src="testi.png" alt="">
+    <h3 style="margin-bottom:40px">CORONA</h3>
+    <p>Consectetur adipisicing elit sed do ei usmod tempor incididunt.enim minim veniam, quis nostrud exer citation ullamco laboris nisi
+       ut aliquip</p>
+       <div style="display: flex;">
+        <i class="fa fa-facebook idds as" aria-hidden="true"></i>
+        <i class="fa fa-instagram idds ar" aria-hidden="true"></i>
+        <i class="fa fa-skype idds aa" aria-hidden="true"></i>
+        <i class="fa fa-paypal idds ad" aria-hidden="true"></i>
+       </div>
+      </div>
+      <div style="margin-bottom: 90px" class="last2 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+    <h3>About hospitals</h3>
+    <div style="width: 70px;height: 3px;background-color: cyan;margin-bottom: 10px;"></div>
+    <p class="plast">Search Engine Opitimes </p>
+    <p class="plast"> How it Work</p>
+    <p class="plast">Devolpment</p>
+    <p class="plast">Contect Customers</p>
+    <p class="plast">Our Services</p>
+      </div>
+      <div style="margin-bottom: 90px" class="last2 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+        <h3></h3>
+        <div style="width: 70px;height: 3px;background-color:cyan;margin-bottom: 10px;"></div>
+        <p class="plast"> </p>
+        <p class="plast"> About Us</p>
+        <p class="plast">Services</p>
+        <p class="plast">Our Team</p>
+        <p class="plast">Could Manger</p>
+        <p class="plast">Pricing plan</p>
+        
+          </div>
+          <div style="margin-bottom: 90px" class="last2 col-12 col-sm-12 col-md-12 col-lg-3 col-lx-3">
+            <h3>Our Support</h3>
+            <div style="width: 70px;height: 3px;background-color: cyan;margin-bottom: 10px;"></div>
+      <h4 style="cursor: pointer;">our Location</h4>
+      <p>455 West Orchard Street KingsMountain, NC 28086</p>
+     
+      <h4 style="cursor: pointer;">Email:</h4>
+      <p >info@tco.org</p>    
+              </div>
+    </div>
+    <hr>
+ 
+  <p style="float: right;transform: translateX(-30px);">@copyright2020 Made By:Abdulrahman Mansour</p>
+  </div>
+</div>
+
+<button type="button" class="btn btn-primary" id="topb">
+  <i class="fa fa-arrow-up"  aria-hidden="true"></i> 
+</button>
+
+
+<!--end section last-->
+
+</body>
+<script>
+$(document).ready(function(){
+$(window).scroll(function(){
+$("nav").toggleClass("bg2",$(this).scrollTop() > 100);
+});
+$(".bte").on("click",function(){
+  $(".over1").fadeIn(1000);
+});
+$(".ximg").on("click",function(){
+$(".over1").fadeOut(1000);
+});
+$(".from-left").hover(function(){
+$(this).find('span').eq(0).animate({
+width:'100%'
+},300)
+},function(){
+    $(this).find('span').eq(0).animate({
+width:'0'
+},300)
+})
+$(".doi2").on("click",function(){
+$(".poup").fadeIn(400);
+});
+$(".doclose").on("click",function(){
+$(".poup").fadeOut(400);
+});
+$("#topb").click(function(e){
+  e.preventDefault();
+  $('html,body').animate({scrollTop:0},800)
+});
+
+
+});
+$(window).scroll(function(){
+if($(this).scrollTop()> 50){
+  $("#topb").fadeIn();
+}else{
+  $("#tobp").fadeOut();
+}
+  });
+
+ 
+
+
+var swiper = new Swiper('.swiper-container', {
+      effect: 'coverflow',
+      grabCursor: true,
+      centeredSlides: true,
+      slidesPerView: 'auto',
+      coverflowEffect: {
+        rotate: 50,
+        stretch: 0,
+        depth: 100,
+        modifier: 1,
+        slideShadows: true,
+      },
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    });
+ 
+</script>
+</html>
